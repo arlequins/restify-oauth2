@@ -1,0 +1,21 @@
+{
+  "name" : "api",
+  "script" : "/usr/local/share/app/index.js",
+  "env_dev" : {
+    "NODE_ENV": "development",
+    "PORT": 3000,
+    "BASE_URL": "http://localhost:3000",
+    "API_URL": "/api/v1",
+    "DATABASE_TYPE": "mongodb",
+    "MONGODB_URI": "mongodb://127.0.0.1:27017/setine",
+    "SQL_DATABASE": "oauth",
+    "SQL_USERNAME": "root",
+    "SQL_PASSWORD": "",
+    "SQL_HOST": "localhost",
+    "SQL_TYPE": "mysql",
+    "SQL_OPTIONS_MAX": 10,
+    "SQL_OPTIONS_MIN": 0,
+    "SQL_OPTIONS_ACQUIRE": 30000,
+    "SQL_OPTIONS_IDLE": 10000
+  }
+}

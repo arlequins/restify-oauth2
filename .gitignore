@@ -1,0 +1,12 @@
+.vscode
+example*
+**/node-v*-*-x*/
+**/.gradle
+**/package-lock.json
+**/node_modules
+**/dist
+**/temp
+**/www
+**/.project
+**/.settings
+
